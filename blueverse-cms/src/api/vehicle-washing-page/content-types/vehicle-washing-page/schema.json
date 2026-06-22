@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "vehicle_washing_pages",
+  "info": {
+    "singularName": "vehicle-washing-page",
+    "pluralName": "vehicle-washing-pages",
+    "displayName": "Vehicle Washing Page"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "hero": { "type": "json" },
+    "features": { "type": "json" },
+    "washTypes": { "type": "json" },
+    "businessModels": { "type": "json" },
+    "regionalCards": { "type": "json" }
+  }
+}

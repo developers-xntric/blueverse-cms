@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "esg_platform_pages",
+  "info": {
+    "singularName": "esg-platform-page",
+    "pluralName": "esg-platform-pages",
+    "displayName": "ESG Platform Page"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "hero": { "type": "json" },
+    "whatItTracks": { "type": "json" },
+    "capabilities": { "type": "json" },
+    "pricingModel": { "type": "json" }
+  }
+}

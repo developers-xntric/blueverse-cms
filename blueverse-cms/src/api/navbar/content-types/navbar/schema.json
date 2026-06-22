@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "logo": { "type": "string", "default": "/figma-assets/hero-logo.png" },
+    "logoAlt": { "type": "string", "default": "BlueVerse" },
+    "navLinks": { "type": "json", "required": true },
+    "ctaLabel": { "type": "string", "default": "Talk To Our Team" }
+  }
+}

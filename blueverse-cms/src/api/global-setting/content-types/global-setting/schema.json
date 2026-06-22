@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global Setting"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "title": { "type": "string", "required": true, "default": "BlueVerse | Water Infrastructure Landing Page" },
+    "description": { "type": "text", "required": true },
+    "ogTitle": { "type": "string" },
+    "ogDescription": { "type": "text" },
+    "twitterCard": { "type": "string" }
+  }
+}

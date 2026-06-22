@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "hero": { "type": "json" },
+    "marqueeLogos": { "type": "json" },
+    "heroPartners": { "type": "json" },
+    "stats": { "type": "json" },
+    "challenges": { "type": "json" },
+    "solutions": { "type": "json" },
+    "industries": { "type": "json" },
+    "aboutTabs": { "type": "json" },
+    "partners": { "type": "json" },
+    "deploymentHighlights": { "type": "json" },
+    "offices": { "type": "json" },
+    "footerServiceLinks": { "type": "json" },
+    "navLinks": { "type": "json" },
+    "seo": { "type": "json" }
+  }
+}

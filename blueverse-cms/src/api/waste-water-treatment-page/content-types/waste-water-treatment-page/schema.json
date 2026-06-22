@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "waste_water_treatment_pages",
+  "info": {
+    "singularName": "waste-water-treatment-page",
+    "pluralName": "waste-water-treatment-pages",
+    "displayName": "Waste Water Treatment Page"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "hero": { "type": "json" },
+    "stats": { "type": "json" },
+    "epcFocusAreas": { "type": "json" },
+    "electroxProcesses": { "type": "json" },
+    "scaleCards": { "type": "json" },
+    "ecosystemProducts": { "type": "json" },
+    "industries": { "type": "json" },
+    "aboutValues": { "type": "json" },
+    "partnerships": { "type": "json" },
+    "deploymentHighlights": { "type": "json" },
+    "offices": { "type": "json" }
+  }
+}

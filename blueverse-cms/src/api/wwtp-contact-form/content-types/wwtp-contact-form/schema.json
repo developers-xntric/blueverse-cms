@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "wwtp_contact_forms",
+  "info": {
+    "singularName": "wwtp-contact-form",
+    "pluralName": "wwtp-contact-forms",
+    "displayName": "WWTP Contact Form"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "offices": { "type": "json" },
+    "submitLabel": { "type": "string" }
+  }
+}

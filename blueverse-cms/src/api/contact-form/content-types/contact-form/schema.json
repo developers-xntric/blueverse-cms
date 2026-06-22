@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_forms",
+  "info": {
+    "singularName": "contact-form",
+    "pluralName": "contact-forms",
+    "displayName": "Contact Form"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "offices": { "type": "json" },
+    "submitLabel": { "type": "string" },
+    "submittingLabel": { "type": "string" },
+    "successMessage": { "type": "string" },
+    "errorMessage": { "type": "string" }
+  }
+}
