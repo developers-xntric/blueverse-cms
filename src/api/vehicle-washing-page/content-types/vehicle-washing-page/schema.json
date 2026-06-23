@@ -9,10 +9,42 @@
   "options": {},
   "pluginOptions": {},
   "attributes": {
-    "hero": { "type": "json" },
-    "features": { "type": "json" },
-    "washTypes": { "type": "json" },
-    "businessModels": { "type": "json" },
-    "regionalCards": { "type": "json" }
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "featuresSectionTitle": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vehicle.feature"
+    },
+    "washTypesSectionTitle": {
+      "type": "string"
+    },
+    "washTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vehicle.wash-type"
+    },
+    "businessModelsSectionTitle": {
+      "type": "string"
+    },
+    "businessModels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vehicle.business-model"
+    },
+    "regionalSectionTitle": {
+      "type": "string"
+    },
+    "regionalCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vehicle.regional-card"
+    }
   }
 }

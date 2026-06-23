@@ -1,15 +1,12 @@
 {
-  "kind": "singleType",
-  "collectionName": "navbars",
+  "collectionName": "components_vehicle_regional_cards",
   "info": {
-    "singularName": "navbar",
-    "pluralName": "navbars",
-    "displayName": "Navbar"
+    "displayName": "Regional Card",
+    "icon": "earth"
   },
   "options": {},
-  "pluginOptions": {},
   "attributes": {
-    "logo": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -17,15 +14,15 @@
         "files"
       ]
     },
-    "logoAlt": {
+    "region": {
       "type": "string",
-      "default": "BlueVerse"
-    },
-    "navLinks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.link",
       "required": true
+    },
+    "site": {
+      "type": "string"
+    },
+    "copy": {
+      "type": "text"
     },
     "cta": {
       "type": "component",

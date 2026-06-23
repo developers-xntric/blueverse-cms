@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_text_fields",
+  "info": {
+    "displayName": "Text Field",
+    "icon": "pencil"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "required": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

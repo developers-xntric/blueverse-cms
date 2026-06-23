@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_vehicle_business_models",
+  "info": {
+    "displayName": "Business Model",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

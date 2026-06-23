@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_timeline_items",
+  "info": {
+    "displayName": "Timeline Item",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

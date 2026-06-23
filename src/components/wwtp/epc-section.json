@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_wwtp_epc_sections",
+  "info": {
+    "displayName": "EPC Section",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button-link"
+    }
+  }
+}

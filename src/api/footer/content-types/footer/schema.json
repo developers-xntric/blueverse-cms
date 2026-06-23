@@ -9,10 +9,32 @@
   "options": {},
   "pluginOptions": {},
   "attributes": {
-    "logo": { "type": "string", "default": "/figma-assets/partner-logo-6.png" },
-    "navLinks": { "type": "json" },
-    "serviceLinks": { "type": "json" },
-    "copyright": { "type": "string", "default": "Copyright 2026 BlueVerse CleanTech Pvt. Ltd. All rights reserved." },
-    "socialLinks": { "type": "json" }
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "serviceLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "copyright": {
+      "type": "string",
+      "default": "Copyright 2026 BlueVerse CleanTech Pvt. Ltd. All rights reserved."
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    }
   }
 }

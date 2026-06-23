@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_challenges",
+  "info": {
+    "displayName": "Challenge",
+    "icon": "warningCircle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    }
+  }
+}

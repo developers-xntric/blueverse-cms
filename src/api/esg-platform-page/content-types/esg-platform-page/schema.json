@@ -9,9 +9,15 @@
   "options": {},
   "pluginOptions": {},
   "attributes": {
-    "hero": { "type": "json" },
-    "whatItTracks": { "type": "json" },
-    "capabilities": { "type": "json" },
-    "pricingModel": { "type": "json" }
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "esg.list-card"
+    }
   }
 }

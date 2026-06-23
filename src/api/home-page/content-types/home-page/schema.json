@@ -9,19 +9,88 @@
   "options": {},
   "pluginOptions": {},
   "attributes": {
-    "hero": { "type": "json" },
-    "marqueeLogos": { "type": "json" },
-    "heroPartners": { "type": "json" },
-    "stats": { "type": "json" },
-    "challenges": { "type": "json" },
-    "solutions": { "type": "json" },
-    "industries": { "type": "json" },
-    "aboutTabs": { "type": "json" },
-    "partners": { "type": "json" },
-    "deploymentHighlights": { "type": "json" },
-    "offices": { "type": "json" },
-    "footerServiceLinks": { "type": "json" },
-    "navLinks": { "type": "json" },
-    "seo": { "type": "json" }
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "trustedBrandsLabel": {
+      "type": "string"
+    },
+    "marqueeLogos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.marquee-logo"
+    },
+    "heroPartners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.hero-partner"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "problemSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.problem-section"
+    },
+    "challenges": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.challenge"
+    },
+    "solutionsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.solutions-section"
+    },
+    "solutions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.solution"
+    },
+    "industriesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.industries-section"
+    },
+    "industries": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.industry"
+    },
+    "aboutSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section-header"
+    },
+    "aboutTabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.about-tab"
+    },
+    "partnersSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section-header"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.partnership"
+    },
+    "deploymentSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.deployment-section"
+    },
+    "deploymentHighlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    }
   }
 }

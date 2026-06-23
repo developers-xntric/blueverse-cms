@@ -9,16 +9,53 @@
   "options": {},
   "pluginOptions": {},
   "attributes": {
-    "hero": { "type": "json" },
-    "stats": { "type": "json" },
-    "epcFocusAreas": { "type": "json" },
-    "electroxProcesses": { "type": "json" },
-    "scaleCards": { "type": "json" },
-    "ecosystemProducts": { "type": "json" },
-    "industries": { "type": "json" },
-    "aboutValues": { "type": "json" },
-    "partnerships": { "type": "json" },
-    "deploymentHighlights": { "type": "json" },
-    "offices": { "type": "json" }
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-hero"
+    },
+    "statsSectionLabel": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "epcSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wwtp.epc-section"
+    },
+    "epcFocusAreas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wwtp.epc-focus-area"
+    },
+    "electroxSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wwtp.electrox-section"
+    },
+    "electroxProcesses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wwtp.electrox-process"
+    },
+    "scaleSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wwtp.scale-section"
+    },
+    "scaleCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wwtp.scale-card"
+    },
+    "ecosystemProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wwtp.ecosystem-product"
+    }
   }
 }

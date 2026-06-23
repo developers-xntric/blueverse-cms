@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_wwtp_electrox_processes",
+  "info": {
+    "displayName": "Electrox Process",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

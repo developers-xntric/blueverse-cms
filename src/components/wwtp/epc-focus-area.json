@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_wwtp_epc_focus_areas",
+  "info": {
+    "displayName": "EPC Focus Area",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    }
+  }
+}

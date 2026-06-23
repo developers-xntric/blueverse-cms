@@ -9,10 +9,31 @@
   "options": {},
   "pluginOptions": {},
   "attributes": {
-    "title": { "type": "string", "required": true, "default": "BlueVerse | Water Infrastructure Landing Page" },
-    "description": { "type": "text", "required": true },
-    "ogTitle": { "type": "string" },
-    "ogDescription": { "type": "text" },
-    "twitterCard": { "type": "string" }
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "BlueVerse | Water Infrastructure Landing Page"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "text"
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "twitterCard": {
+      "type": "string"
+    }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_button_links",
+  "info": {
+    "displayName": "Button Link",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

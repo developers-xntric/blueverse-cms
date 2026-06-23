@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_problem_sections",
+  "info": {
+    "displayName": "Problem Section",
+    "icon": "warningCircle"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section-header"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button-link"
+    }
+  }
+}

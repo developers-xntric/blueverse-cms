@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_marquee_logos",
+  "info": {
+    "displayName": "Marquee Logo",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_vehicle_features",
+  "info": {
+    "displayName": "Feature",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_about_tabs",
+  "info": {
+    "displayName": "About Tab",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "panel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.about-panel"
+    }
+  }
+}

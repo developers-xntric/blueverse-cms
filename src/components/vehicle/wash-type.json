@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_vehicle_wash_types",
+  "info": {
+    "displayName": "Wash Type",
+    "icon": "car"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

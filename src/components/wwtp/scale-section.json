@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_wwtp_scale_sections",
+  "info": {
+    "displayName": "Scale Section",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -9,12 +9,58 @@
   "options": {},
   "pluginOptions": {},
   "attributes": {
-    "heading": { "type": "string" },
-    "description": { "type": "text" },
-    "offices": { "type": "json" },
-    "submitLabel": { "type": "string" },
-    "submittingLabel": { "type": "string" },
-    "successMessage": { "type": "string" },
-    "errorMessage": { "type": "string" }
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "offices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.office"
+    },
+    "nameField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-field"
+    },
+    "companyField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-field"
+    },
+    "emailField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-field"
+    },
+    "phoneField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-field"
+    },
+    "serviceField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.select-field"
+    },
+    "messageField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text-field"
+    },
+    "submitLabel": {
+      "type": "string"
+    },
+    "submittingLabel": {
+      "type": "string"
+    },
+    "successMessage": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    }
   }
 }
