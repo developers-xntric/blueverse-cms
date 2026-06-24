@@ -15,6 +15,12 @@
     "description": {
       "type": "text"
     },
+    "emailTitle": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "string"
+    },
     "offices": {
       "type": "component",
       "repeatable": true,
