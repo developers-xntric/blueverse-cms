@@ -18,6 +18,11 @@
       "type": "component",
       "repeatable": true,
       "component": "esg.list-card"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
