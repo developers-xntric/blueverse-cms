@@ -21,6 +21,14 @@
         "files"
       ]
     },
+    "logo2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
     "points": {
       "type": "component",
       "repeatable": true,
